@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CAE705392C17C7B000C0C36B /* Bridgeberry_navApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE705382C17C7B000C0C36B /* Bridgeberry_navApp.swift */; };
+		CA7A64482C2501CE00D59791 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7A64472C2501CE00D59791 /* NotificationModel.swift */; };
+		CA8871A82C29935F00014A30 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8871A72C29935F00014A30 /* Weather.swift */; };
+		CAE705392C17C7B000C0C36B /* Bridgeberry_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE705382C17C7B000C0C36B /* Bridgeberry_App.swift */; };
 		CAE7053B2C17C7B000C0C36B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7053A2C17C7B000C0C36B /* ContentView.swift */; };
-		CAE7053D2C17C7B300C0C36B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE7053C2C17C7B300C0C36B /* Assets.xcassets */; };
 		CAE705402C17C7B300C0C36B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE7053F2C17C7B300C0C36B /* Preview Assets.xcassets */; };
+		CAE705482C17C84F00C0C36B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE705472C17C84F00C0C36B /* Home.swift */; };
+		CAE7054A2C17C85600C0C36B /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE705492C17C85600C0C36B /* Contacts.swift */; };
+		CAE705502C1DC8C800C0C36B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE7054F2C1DC8C800C0C36B /* Assets.xcassets */; };
+		CAE705522C1DD1E200C0C36B /* notifications.json in Resources */ = {isa = PBXBuildFile; fileRef = CAE705512C1DD1E100C0C36B /* notifications.json */; };
+		CAE705542C1DD41900C0C36B /* urls.json in Resources */ = {isa = PBXBuildFile; fileRef = CAE705532C1DD41900C0C36B /* urls.json */; };
+		CAE705562C1DD7C200C0C36B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE705552C1DD7C200C0C36B /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CAE705352C17C7B000C0C36B /* Bridgeberry-nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bridgeberry-nav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAE705382C17C7B000C0C36B /* Bridgeberry_navApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridgeberry_navApp.swift; sourceTree = "<group>"; };
+		CA7A64472C2501CE00D59791 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		CA8871A72C29935F00014A30 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		CAE705352C17C7B000C0C36B /* Bridgeberry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridgeberry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE705382C17C7B000C0C36B /* Bridgeberry_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridgeberry_App.swift; sourceTree = "<group>"; };
 		CAE7053A2C17C7B000C0C36B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CAE7053C2C17C7B300C0C36B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAE7053F2C17C7B300C0C36B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAE705472C17C84F00C0C36B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CAE705492C17C85600C0C36B /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		CAE7054F2C1DC8C800C0C36B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAE705512C1DD1E100C0C36B /* notifications.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = notifications.json; sourceTree = "<group>"; };
+		CAE705532C1DD41900C0C36B /* urls.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = urls.json; sourceTree = "<group>"; };
+		CAE705552C1DD7C200C0C36B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +49,7 @@
 		CAE7052C2C17C7B000C0C36B = {
 			isa = PBXGroup;
 			children = (
-				CAE705372C17C7B000C0C36B /* Bridgeberry-nav */,
+				CAE705372C17C7B000C0C36B /* Bridgeberry */,
 				CAE705362C17C7B000C0C36B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +57,24 @@
 		CAE705362C17C7B000C0C36B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CAE705352C17C7B000C0C36B /* Bridgeberry-nav.app */,
+				CAE705352C17C7B000C0C36B /* Bridgeberry.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CAE705372C17C7B000C0C36B /* Bridgeberry-nav */ = {
+		CAE705372C17C7B000C0C36B /* Bridgeberry */ = {
 			isa = PBXGroup;
 			children = (
-				CAE705382C17C7B000C0C36B /* Bridgeberry_navApp.swift */,
+				CAE705382C17C7B000C0C36B /* Bridgeberry_App.swift */,
 				CAE7053A2C17C7B000C0C36B /* ContentView.swift */,
-				CAE7053C2C17C7B300C0C36B /* Assets.xcassets */,
+				CA7A64472C2501CE00D59791 /* NotificationModel.swift */,
+				CAE7054F2C1DC8C800C0C36B /* Assets.xcassets */,
+				CAE705462C17C83100C0C36B /* Views */,
 				CAE7053E2C17C7B300C0C36B /* Preview Content */,
+				CAE705512C1DD1E100C0C36B /* notifications.json */,
+				CAE705532C1DD41900C0C36B /* urls.json */,
 			);
-			path = "Bridgeberry-nav";
+			path = Bridgeberry;
 			sourceTree = "<group>";
 		};
 		CAE7053E2C17C7B300C0C36B /* Preview Content */ = {
@@ -67,12 +85,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CAE705462C17C83100C0C36B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAE705472C17C84F00C0C36B /* Home.swift */,
+				CAE705552C1DD7C200C0C36B /* WebView.swift */,
+				CAE705492C17C85600C0C36B /* Contacts.swift */,
+				CA8871A72C29935F00014A30 /* Weather.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CAE705342C17C7B000C0C36B /* Bridgeberry-nav */ = {
+		CAE705342C17C7B000C0C36B /* Bridgeberry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAE705432C17C7B300C0C36B /* Build configuration list for PBXNativeTarget "Bridgeberry-nav" */;
+			buildConfigurationList = CAE705432C17C7B300C0C36B /* Build configuration list for PBXNativeTarget "Bridgeberry" */;
 			buildPhases = (
 				CAE705312C17C7B000C0C36B /* Sources */,
 				CAE705322C17C7B000C0C36B /* Frameworks */,
@@ -82,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = "Bridgeberry-nav";
+			name = Bridgeberry;
 			productName = "Bridgeberry-nav";
-			productReference = CAE705352C17C7B000C0C36B /* Bridgeberry-nav.app */;
+			productReference = CAE705352C17C7B000C0C36B /* Bridgeberry.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CAE705302C17C7B000C0C36B /* Build configuration list for PBXProject "Bridgeberry-nav" */;
+			buildConfigurationList = CAE705302C17C7B000C0C36B /* Build configuration list for PBXProject "Bridgeberry" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CAE705342C17C7B000C0C36B /* Bridgeberry-nav */,
+				CAE705342C17C7B000C0C36B /* Bridgeberry */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAE705522C1DD1E200C0C36B /* notifications.json in Resources */,
 				CAE705402C17C7B300C0C36B /* Preview Assets.xcassets in Resources */,
-				CAE7053D2C17C7B300C0C36B /* Assets.xcassets in Resources */,
+				CAE705542C1DD41900C0C36B /* urls.json in Resources */,
+				CAE705502C1DC8C800C0C36B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA7A64482C2501CE00D59791 /* NotificationModel.swift in Sources */,
 				CAE7053B2C17C7B000C0C36B /* ContentView.swift in Sources */,
-				CAE705392C17C7B000C0C36B /* Bridgeberry_navApp.swift in Sources */,
+				CAE705562C1DD7C200C0C36B /* WebView.swift in Sources */,
+				CAE705482C17C84F00C0C36B /* Home.swift in Sources */,
+				CAE705392C17C7B000C0C36B /* Bridgeberry_App.swift in Sources */,
+				CAE7054A2C17C85600C0C36B /* Contacts.swift in Sources */,
+				CA8871A82C29935F00014A30 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +218,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -245,6 +282,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -258,6 +297,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -271,10 +311,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Bridgeberry-nav/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Bridgeberry/Preview Content\"";
 				DEVELOPMENT_TEAM = CXYP3XQQ2Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,10 +341,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Bridgeberry-nav/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Bridgeberry/Preview Content\"";
 				DEVELOPMENT_TEAM = CXYP3XQQ2Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CAE705302C17C7B000C0C36B /* Build configuration list for PBXProject "Bridgeberry-nav" */ = {
+		CAE705302C17C7B000C0C36B /* Build configuration list for PBXProject "Bridgeberry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CAE705412C17C7B300C0C36B /* Debug */,
@@ -334,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAE705432C17C7B300C0C36B /* Build configuration list for PBXNativeTarget "Bridgeberry-nav" */ = {
+		CAE705432C17C7B300C0C36B /* Build configuration list for PBXNativeTarget "Bridgeberry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CAE705442C17C7B300C0C36B /* Debug */,
