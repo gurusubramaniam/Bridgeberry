@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CA7A64482C2501CE00D59791 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7A64472C2501CE00D59791 /* NotificationModel.swift */; };
 		CA8871A82C29935F00014A30 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8871A72C29935F00014A30 /* Weather.swift */; };
+		CABC796B2C52907400CA1541 /* WebViewPrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC796A2C52907400CA1541 /* WebViewPrefetcher.swift */; };
 		CAE705392C17C7B000C0C36B /* Bridgeberry_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE705382C17C7B000C0C36B /* Bridgeberry_App.swift */; };
 		CAE7053B2C17C7B000C0C36B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7053A2C17C7B000C0C36B /* ContentView.swift */; };
 		CAE705402C17C7B300C0C36B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE7053F2C17C7B300C0C36B /* Preview Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		CA7A64472C2501CE00D59791 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
 		CA8871A72C29935F00014A30 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		CABC796A2C52907400CA1541 /* WebViewPrefetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPrefetcher.swift; sourceTree = "<group>"; };
 		CAE705352C17C7B000C0C36B /* Bridgeberry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridgeberry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE705382C17C7B000C0C36B /* Bridgeberry_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridgeberry_App.swift; sourceTree = "<group>"; };
 		CAE7053A2C17C7B000C0C36B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				CAE705382C17C7B000C0C36B /* Bridgeberry_App.swift */,
+				CABC796A2C52907400CA1541 /* WebViewPrefetcher.swift */,
 				CAE7053A2C17C7B000C0C36B /* ContentView.swift */,
 				CA7A64472C2501CE00D59791 /* NotificationModel.swift */,
 				CAE7054F2C1DC8C800C0C36B /* Assets.xcassets */,
@@ -171,6 +174,7 @@
 				CA7A64482C2501CE00D59791 /* NotificationModel.swift in Sources */,
 				CAE7053B2C17C7B000C0C36B /* ContentView.swift in Sources */,
 				CAE705562C1DD7C200C0C36B /* WebView.swift in Sources */,
+				CABC796B2C52907400CA1541 /* WebViewPrefetcher.swift in Sources */,
 				CAE705482C17C84F00C0C36B /* Home.swift in Sources */,
 				CAE705392C17C7B000C0C36B /* Bridgeberry_App.swift in Sources */,
 				CAE7054A2C17C85600C0C36B /* Contacts.swift in Sources */,
@@ -321,16 +325,21 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Bridgeberry.Bridgeberry-nav";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,16 +360,21 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Bridgeberry.Bridgeberry-nav";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
